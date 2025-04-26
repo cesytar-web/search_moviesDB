@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Películas</title>
+    <!-- Enlazamos Bootstrap para estilos -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    
+  </head>
+<body>
+<!---->
+<div class="container">
+    <h1 class="my-5 text-center">Buscador de Películas</h1>
+    
+    <div class="row mb-4">
+        <div class="col-md-8 mx-auto">
+            <input type="text" class="form-control" id="search-input" placeholder="Busca una película...">
+        </div>
+    </div>
+    
+   
+    <div id="movie-results" class="d-flex flex-wrap gap-3 justify-content-evenly"></div>
+</div>
+
+
+</body>
+</html>
+
+  
+  
